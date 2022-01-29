@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قالب اپلیکیشن موبایل</title>
+   
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="swiper.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+
+    <!-- NAVBAR -->
+    <div class="nav-menu fixed-top pt-3" id="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-dark navbar-expand-lg">
+                        <a class="navbar-brand" href="#">MOBILEAPP</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-md-auto text-center">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link active">
+                                        صفحه اصلی
+                                    </a>
+                                </li>
+                                <li class="nav-item mx-md-3">
+                                    <a href="#features" class="nav-link">
+                                        مشخصات 
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#gallery" class="nav-link">
+                                        گالری 
+                                    </a>
+                                </li>
+                                <li class="nav-item mx-md-3">
+                                    <a href="#pannels" class="nav-link">
+                                        پنل ها 
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contactus" class="nav-link">
+                                        ارتباط با ما 
+                                    </a>
+                                </li>
+                                <li class="nav-item ms-md-3">
+                                    <a href="#download" class="nav-link btn btn-outline-light px-4">
+                                        دانلود
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="bg-gradient text-center" id="home">
+        <div class="container">
+            <h1 class="mb-4">صفحه هدف اپلیکیشن موبایل</h1>
+            <p class="tagline">در دنیای امروز یکی یادگیری مهارت جدید بسیار آسان شده است، اینبار با اپلیکیشن ما سادتر از گذشته یاد بگیرید</p>
+        </div>
+       <div class="img-holder">
+            <img src="./images/iphonex.png" alt="phone" class="img-fluid mt-3">
+       </div>
+    </header>
+
+    <div class="container d-flex justify-content-center client-logos my-md-5 my-3">
+        <img src="./images/client-logos.png" alt="client-logos" class="img-fluid">
+    </div>
+
+    <!-- FEATURES -->
+    <div class="features bg-light container-fluid" id="features">
+        <div class="container">
+            <div class="title text-center py-5">
+                <small class="text-muted">برجسته</small>
+                <h2 class="title">ویژگی های دوست داشتنی</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 pb-5">
+                <div class="col">
+                    <div class="card mb-3 border-0 border-end" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-3 pt-3">
+                                <i class="bi bi-emoji-smile ps-4 gradient-fill"></i>
+                            </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">ساده</h5>
+                                <p class="card-text text-muted"> طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 border-0 border-end" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-3 pt-3">
+                                <i class="bi bi-gear ps-4 gradient-fill"></i>
+                            </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">شخصی سازی</h5>
+                                <p class="card-text text-muted"> طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 border-0 border-end" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-3 pt-3">
+                                <i class="bi bi-lock ps-4 gradient-fill"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">امنیت</h5>
+                                    <p class="card-text text-muted"> طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FEATURES-2 -->
+    <div class="mt-5 features-2">
+        <div class="container">
+           <div class="row">
+                <div class="col-lg-6">
+                    <div class="box-icon">
+                        <i class="bi bi-phone gradient-fill text-center"></i>
+                    </div>
+                    <h2 class="title my-4"> کشف برنامه ها</h2>
+                    <p class="text-muted">طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نمایید</p>
+                    <a href="#" type="button" class="btn btn-sm btn-primary border-0">
+                        <span class="my-4 px-3">اطلاعات بیشتر</span>
+                    </a>
+                </div>
+                <div class="perspective-phone position-relative">
+                    <img src="./images/perspective.png" class="position-relative img-fluid" alt="perspective-phone">
+                </div>
+           </div>
+        </div>
+    </div>
+
+    <!-- FEATURES-3 -->
+    <div class="features-3 bg-light container-fluid" id="features-3">
+        <div class="container pb-5">
+            <div class="title text-center py-5">
+                <small class="text-muted">ویژگی ها</small>
+                <h2 class="title">آشنایی بیشتر با موبایل اپلیکیشن</h2>
+            </div>
+            <nav>
+                <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
+                  <button class="nav-link active py-3" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">ارتباطات</button>
+                  <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">برنامه ریزی</button>
+                  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">پیام ها</button>
+                  <button class="nav-link" id="nav-chat-tab" data-bs-toggle="tab" data-bs-target="#nav-chat" type="button" role="tab" aria-controls="nav-chat" aria-selected="false">چت زنده</button>
+                </div>
+            </nav>
+              <div class="tab-content p-5 bg-white" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="right-content d-flex justify-content-center d-md-block mb-4 mb-md-0">
+                            <img src="./images/graphic.png" alt="graphic">
+                        </div>
+                        <div class="left-content mx-sm-5 text-center text-md-start">
+                            <h2 class="mb-2 display-4">با سهولت ارتباط برقرار کنید</h2>
+                            <p class="lead">به سادگی با ارتباط با مدرسان حرفه ای مهارت جدید فرا بگیرید</p>
+                            <p>طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.</p>
+                            <p>طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="right-content mx-sm-5 text-center text-md-start">
+                            <h2 class="mb-2 display-4">زمانی که می خواهید برنامه ریزی کنید</h2>
+                            <p class="lead">به سادگی با ارتباط با مدرسان حرفه ای مهارت جدید فرا بگیرید</p>
+                            <p>طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.</p>
+                            <p>طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.</p>
+                        </div>
+                        <div class="left-content d-flex justify-content-center d-md-block">
+                            <img src="./images/graphic.png" alt="graphic">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="right-content d-flex justify-content-center d-md-block mb-4 mb-md-0">
+                            <img src="./images/graphic.png" alt="graphic">
+                        </div>
+                        <div class="left-content mx-sm-5 text-center text-md-start">
+                            <h2 class="mb-2 display-4">سرویس پیام فوری </h2>
+                            <p class="lead">به سادگی با ارتباط با مدرسان حرفه ای مهارت جدید فرا بگیرید</p>
+                            <p>طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.</p>
+                            <p>طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-chat" role="tabpanel" aria-labelledby="nav-chat-tab">
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="right-content mx-sm-5 text-center text-md-start">
+                            <h2 class="mb-2 display-4"> چت زنده هنگامی که شما نیاز دارید</h2>
+                            <p class="lead">به سادگی با ارتباط با مدرسان حرفه ای مهارت جدید فرا بگیرید</p>
+                            <p>طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.</p>
+                            <p>طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.</p>
+                        </div>
+                        <div class="left-content d-flex justify-content-center d-md-block">
+                            <img src="./images/graphic.png" alt="graphic">
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <!-- FEATURES-4 -->
+    <div class="mt-5 features-4">
+        <div class="container">
+           <div class="row">
+            <div class="col-md-6">
+                <img src="./images/dualphone.png" class="img-fluid" alt="dual-phone">
+            </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-start">
+                    <div class="box-icon text-center">
+                        <i class="bi bi-download gradient-fill"></i>
+                    </div>
+                    <h2 class="title my-4 display-6"> نصب اپلیکیشن </h2>
+                    <p class="text-muted">طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نمایید</p>
+                    <a href="#" type="button" class="btn btn-sm btn-primary border-0">
+                        <span class="my-4 px-3">اطلاعات بیشتر</span>
+                    </a>
+                </div>
+           </div>
+        </div>
+    </div>
+
+    <!-- FEATURES-5 -->
+    <div class="mt-5 features-5 container-fluid bg-light">
+        <div class="container py-5">
+           <div class="row">
+                <div class="col-md-8 d-flex flex-column align-items-center order-1 order-md-0">
+                    <ul class="list-unstyled">
+                        <li class="media d-flex flex-column flex-md-row align-items-center p-5">
+                            <div class="circle-icon text-center rounded-circle mb-4 mb-md-0  me-4">1</div>
+                            <div class="media-body text-center text-md-start">
+                                <h5>
+                                    اکانت بسازید
+                                </h5>
+                                <p>طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید</p>
+                            </div>
+                        </li>
+                        <li class="media d-flex flex-column flex-md-row align-items-center p-5">
+                            <div class="circle-icon rounded-circle text-center mb-4 mb-md-0  me-4">2</div>
+                            <div class="media-body text-center text-md-start">
+                                <h5>
+                                    با دوستان به اشتراک بگذارید
+                                </h5>
+                                <p>طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید</p>
+                            </div>
+                        </li>
+                        <li class="media d-flex flex-column flex-md-row align-items-center p-5 border-0">
+                            <div class="circle-icon rounded-circle text-center mb-4 mb-md-0 me-4">3</div>
+                            <div class="media-body text-center text-md-start">
+                                <h5>
+                                    از آموزش لذت ببرید
+                                </h5>
+                                <p>طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 ps-md-5 d-flex align-items-center">
+                    <img src="./images/iphonex.png" class="img-fluid" alt="iphone-phone">
+                </div>
+           </div>
+        </div>
+    </div>
+
+    <!-- FEATURES-6 -->
+    <div class="features-6 my-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <small class="text-muted">نظرات </small>
+                <h2 class="title">آنچه مشتریان به ما می گویند</h2>
+            </div>
+
+            <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="comment-single my-0 mx-auto text-center">
+                        <i class="bi bi-person-circle gradient-fill"></i>
+                        <blockquote class="blockquote">
+                            طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید
+                        </blockquote>
+                        <h5 class="mt-4 mb-2">عرفان سلوک حقیقی</h5>
+                        <p class="text-primary">ایران</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="comment-single my-0 mx-auto text-center">
+                        <i class="bi bi-person-circle gradient-fill"></i>
+                        <blockquote class="blockquote">
+                            طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید
+                        </blockquote>
+                        <h5 class="mt-4 mb-2">عرفان سلوک حقیقی</h5>
+                        <p class="text-primary">ایران</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="comment-single my-0 mx-auto text-center">
+                        <i class="bi bi-person-circle gradient-fill"></i>
+                        <blockquote class="blockquote">
+                            طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید
+                        </blockquote>
+                        <h5 class="mt-4 mb-2">عرفان سلوک حقیقی</h5>
+                        <p class="text-primary">ایران</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="bi bi-arrow-right" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="bi bi-arrow-left" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+
+    <!-- GALLERY -->
+    <div class="gallery bg-light pt-3 pb-5" id="gallery">
+        <div class="container">
+            <div class="title text-center py-5">
+                <small class="text-muted">گالری </small>
+                <h2 class="title">تصاویر اپلیکیشن</h2>
+            </div>
+
+            <div class="img-galley">
+                 <!-- Swiper -->
+                 <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/screen1.jpg" alt="screen1">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/screen2.jpg" alt="screen2">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/screen3.jpg" alt="screen3">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/screen1.jpg" alt="screen4">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/screen2.jpg" alt="screen5">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/screen3.jpg" alt="screen6">
+                        </div>
+                    </div>
+                        <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- PRICE-PANEL -->
+    <div class="price-panel p-md-5" id="pannels">
+        <div class="container">
+            <div class="title text-center py-5">
+                <small class="text-muted">پنل ها </small>
+                <h2 class="title">ارتقاع به پنل ویژه</h2>
+            </div>
+
+            <div class="pricing px-lg-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card text-center">
+                          <div class="card-header border-0 bg-white d-flex flex-column text-center align-items-center pb-4">
+                              <small class="text-primary ps-3">شخصی</small>
+                              <span class="price">
+                                  <span class="position-relative">14</span>
+                                  <sub>هزارتومان</sub>
+                              </span>
+                          </div>
+                        <div class="card-body">
+                          <ul class="list-gorup list-group-flush text-center">
+                              <li class="list-group-item border-0">10 پروژه</li>
+                              <li class="list-group-item border-0 py-3">5 GB حافظه</li>
+                              <li class="list-group-item border-0">پشتیبانی</li>
+                              <li class="list-group-item border-0 py-3">
+                                  <del>همکاری</del>
+                              </li>
+                              <li class="list-group-item">
+                                  <del>گزارش و آنالیز</del>
+                              </li>
+                          </ul>
+                        </div>
+                        <div class="card-footer border-0 bg-white pb-5"> 
+                            <div class="d-grid">
+                                <button class="btn btn-primary border-0 btn-lg" type="button">
+                                    انتخاب این پنل
+                                </button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center popular">
+                            <div class="card-header border-0 bg-white d-flex flex-column text-center align-items-center pb-4">
+                                <small class="text-primary ps-3">شخصی</small>
+                                <span class="price">
+                                    <span class="position-relative">14</span>
+                                    <sub>هزارتومان</sub>
+                                </span>
+                            </div>
+                          <div class="card-body">
+                            <ul class="list-gorup list-group-flush text-center">
+                                <li class="list-group-item border-0">10 پروژه</li>
+                                <li class="list-group-item border-0 py-3">5 GB حافظه</li>
+                                <li class="list-group-item border-0">پشتیبانی</li>
+                                <li class="list-group-item border-0 py-3">
+                                    <del>همکاری</del>
+                                </li>
+                                <li class="list-group-item">
+                                    <del>گزارش و آنالیز</del>
+                                </li>
+                            </ul>
+                          </div>
+                          <div class="card-footer border-0 bg-white pb-5"> 
+                              <div class="d-grid">
+                                  <button class="btn btn-primary border-0 btn-lg" type="button">
+                                      انتخاب این پنل
+                                  </button>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center">
+                            <div class="card-header border-0 bg-white d-flex flex-column text-center align-items-center pb-4">
+                                <small class="text-primary ps-3">شخصی</small>
+                                <span class="price">
+                                    <span class="position-relative">14</span>
+                                    <sub>هزارتومان</sub>
+                                </span>
+                            </div>
+                          <div class="card-body">
+                            <ul class="list-gorup list-group-flush text-center">
+                                <li class="list-group-item border-0">10 پروژه</li>
+                                <li class="list-group-item border-0 py-3">5 GB حافظه</li>
+                                <li class="list-group-item border-0">پشتیبانی</li>
+                                <li class="list-group-item border-0 py-3">
+                                    <del>همکاری</del>
+                                </li>
+                                <li class="list-group-item">
+                                    <del>گزارش و آنالیز</del>
+                                </li>
+                            </ul>
+                          </div>
+                          <div class="card-footer border-0 bg-white pb-5"> 
+                              <div class="d-grid">
+                                  <button class="btn btn-primary border-0 btn-lg" type="button">
+                                      انتخاب این پنل
+                                  </button>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="faq pb-5 pt-0">
+        <div class="container text-center text-lg-start">
+            <div class="title text-center py-5">
+                <small class="text-muted">FAQ</small>
+                <h2 class="title">سوالات متداول</h2>
+            </div>
+
+            <div class="top-content row mb-4 pt-3">
+                <div class="right-content col-md-6">
+                    <h4 class="mb-3">می توانم قبل خرید تست کنم ؟</h4>
+                    <p class="pe-0 pe-lg-3">طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید</p>
+                </div>
+                <div class="left-content col-md-6">
+                    <h4 class="mb-3">آیا میتوانم پنل خود را بعدا تغییر دهم ؟</h4>
+                    <p>قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد</p>
+                </div>
+            </div>
+
+            <div class="bottom-content row mb-4">
+                <div class="right-content col-md-6">
+                    <h4 class="mb-3">چطور باید پرداخت کنیم ؟</h4>
+                    <p class="pe-0 pe-lg-3">معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد</p>
+                </div>
+                <div class="left-content col-md-6">
+                    <h4 class="mb-3">آیا قراردادی بسته میشود ؟</h4>
+                    <p>طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DOWMLOAD -->
+    <div class="download bg-gradient" id="download">
+        <div class="container py-5">
+            <div class="call-to-action d-flex justify-content-center align-items-center flex-column py-5">
+                <div class="box-icon bg-white mb-5">
+                    <i class="bi bi-phone gradient-fill text-center"></i>
+                </div>
+
+                <h2 class="text-white mb-4">راه های دانلود</h2>
+                <p class="tagline text-center mb-5">
+                    طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید
+                </p>
+
+                <div class="mb-4">
+                    <a href="#" type="button" class="btn btn-light me-2">
+                        <img src="./images/appleicon.png" alt="applestore-icon">
+                        اپل استور
+                    </a>
+                    <a href="#" type="button" class="btn btn-light ms-2">
+                        <img src="./images/playicon.png" alt="playstore-icon">
+                        گوگل پلی
+                    </a>
+                </div>
+
+                <small class="text-primary mt-4">
+                    <em>
+                        از ورژن 5 اندروید و 10 به بالای ios پشتیبانی می شود
+                    </em>
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT-US -->
+    <div class="contact-us bg-light py-5" >
+        <div class="container text-center text-sm-start d-flex justify-content-center" id="contactus">
+            <div class="row w-75">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <div class="address">
+                        <p>
+                            <span class="me-2">
+                                <i class="bi bi-geo-alt"></i>
+                            </span>
+                                ایران ، فارس ، شیراز
+                        </p>
+                        <div class="d-block d-sm-inline-block me-3 left-content mb-3 mb-sm-0">
+                            <i class="bi bi-envelope me-2"></i>
+                            <a href="mailto:erfansolooki@gmail.com" class="text-decoration-none">
+                                erfansolooki@gmail.com
+                            </a>
+                        </div>
+                        <div class="d-block d-sm-inline-block right-content">
+                            <i class="bi bi-telephone me-2"></i>
+                            <a href="tel:+989012345678" class="text-decoration-none"> 
+                                09012345678
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="social-icons d-flex justify-content-lg-end justify-content-center">
+                        <a href="#">
+                            <i class="bi bi-meta"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer text-center my-5">
+        <p class="mb-2">
+            <small>کليه حقوق محصولات و محتوای اين سایت متعلق به عرفان سلوک حقیقی می باشد</small>
+        </p>
+        <small>
+            <a href="#" class="text-decoration-none">
+                اخبار
+            </a>
+            <a href="#" class="text-decoration-none mx-3">
+                قوانین
+            </a>
+            <a href="#" class="text-decoration-none">
+                حریم خصوصی
+            </a>
+        </small>
+    </footer>
+
+    <!-- JS-FILES -->
+    <script src="./script.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+     <!-- Swiper JS -->
+     <script src="./swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop : true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
+        autoplay : {
+            delay : 4000
+        }
+      });
+    </script>
+</body>
+</html>
